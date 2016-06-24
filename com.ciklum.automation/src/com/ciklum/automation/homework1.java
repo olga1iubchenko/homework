@@ -1,13 +1,15 @@
 package com.ciklum.automation;
 
-public class Homework1 {
-public static void Main(String[] args) {  
-    int a = -2;
-    int b = 5;
-    int min = 0;    
+public class homework1 {
+	  static int a = -2;
+	  static int b = 5;
+	  static  int min = 0;    
+public static void main(String[] args) {
+
+  minValue();
   }
  //1
-  public static void minValue(int Value1, int Value2) {
+  public static void minValue() {
       if (a > b) {
       int  min = b; 
       }
@@ -17,7 +19,7 @@ public static void Main(String[] args) {
   }
 
 //2
-public static void sumDevidedByK(int array []){
+public static void sumDevidedByK(){
 int array [] = {1,4,3,5,7,6};
 int k = 3;
 int sum = 0;
